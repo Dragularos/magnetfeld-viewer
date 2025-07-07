@@ -3,10 +3,10 @@ import 'package:flutter/material.dart';
 import 'package:window_manager/window_manager.dart';
 import 'widgets/magnetfeld_grid.dart';
 
-const String appVersion   = '0.25.07.06';
-const int    gridSize     = 60;
-const double cellSize     = 10.0;
-const int    labelSteps   = 6;
+const String appVersion = 'v0.25.0707';
+const int gridSize = 60;
+const double cellSize = 10.0;
+const int labelSteps = 6;
 const double sliderHeight = 60.0;
 
 // Von dir gemessene Overflows:
