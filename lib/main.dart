@@ -10,7 +10,7 @@ const int labelSteps = 6;
 const double sliderHeight = 60.0;
 
 // Von dir gemessene Overflows:
-const double padRight  = 175.0;
+const double padRight = 175.0;
 const double padBottom = 153.0;
 
 Future<void> main() async {
@@ -19,10 +19,10 @@ Future<void> main() async {
 
   if (Platform.isMacOS || Platform.isWindows || Platform.isLinux) {
     // 1) Gewünschte Content-Größe berechnen
-    final double fieldSize  = gridSize * cellSize;
-    final double axisStep   = fieldSize / labelSteps;
-    final double contentW   = axisStep + fieldSize;
-    final double contentH   = fieldSize + axisStep + sliderHeight;
+    final double fieldSize = gridSize * cellSize;
+    final double axisStep = fieldSize / labelSteps;
+    final double contentW = axisStep + fieldSize;
+    final double contentH = fieldSize + axisStep + sliderHeight;
 
     // 2) Aktuelles Fenster-Frame abfragen
     final Rect frame = await windowManager.getBounds();
