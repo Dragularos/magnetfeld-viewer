@@ -4,6 +4,7 @@ import 'package:window_manager/window_manager.dart';
 import 'widgets/magnetfeld_grid.dart';
 
 const String appVersion = 'v0.25.0707';
+//Willkommen in GitHub
 const int gridSize = 60;
 const double cellSize = 10.0;
 const int labelSteps = 6;
